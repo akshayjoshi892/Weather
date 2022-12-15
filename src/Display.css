@@ -1,0 +1,117 @@
+* {
+   font-family: sans-serif;
+   padding: 0;
+   box-sizing: border-box;
+   margin: 0;
+}
+
+.wrapper {
+   height: 95vh;
+   position: relative;
+   top: 15px;
+   width: 100vh;
+   padding: 30px 30px;
+   margin: auto;
+   background-color: grey;
+   border-radius: 30px;
+   background-image: url('back_.avif');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   background-size: cover;
+}
+
+.top {
+   padding: 15px 15px;
+   height: 20vh;
+}
+
+.top input {
+   padding: 10px 10px;
+   border-radius: 6px;
+   margin-right: 5px;
+   background: transparent;
+   color: white;
+   background: white;
+   backdrop-filter: blur(30px);
+}
+
+.middle {
+   height: 15vh;
+   width: 30vh;
+   text-align: center;
+   margin-left: 18px;
+   color: white;
+}
+
+.middle h3 {
+   font-weight: 800;
+   font-size: 35px;
+   padding: 25px 20px;
+
+   background: rgba(0, 0, 0, 0.3);
+   backdrop-filter: blur(30px);
+   border-radius: 20px;
+}
+
+.bottom {
+   height: 50vh;
+   width: 85vh;
+
+   margin-left: 18px;
+   display: flex;
+   padding: 30px 0px;
+
+}
+
+.left {
+   display: flex;
+   flex: 1;
+   flex-direction: column;
+   padding: 10px 10px;
+}
+
+.right {
+   display: flex;
+   flex-direction: column;
+   padding: 10px 10px;
+   flex: 1;
+}
+
+.left p {
+   width: 40vh;
+   height: 10vh;
+   padding: 20px 15px;
+   font-size: 25px;
+   background-color: red;
+   border-radius: 15px;
+   color: white;
+   background: rgba(0, 0, 0, 0.3);
+   backdrop-filter: blur(15px);
+}
+
+.right p {
+   width: 40vh;
+   height: 10vh;
+   padding: 20px 15px;
+   font-size: 25px;
+   background-color: red;
+   border-radius: 15px;
+   color: white;
+   background: rgba(0, 0, 0, 0.3);
+   backdrop-filter: blur(15px);
+}
+
+.button {
+   padding: 10px 15px;
+   border-radius: 12px;
+   font-size: 18px;
+   color: white;
+   background: rgba(0, 0, 0, 0.1);
+   backdrop-filter: blur(15px);
+   transition: 0.2s ease-out;
+}
+
+.button:hover {
+   background-color: white;
+   color: black;
+}
